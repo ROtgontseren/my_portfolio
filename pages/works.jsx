@@ -2,9 +2,7 @@ import React from "react";
 
 const works = () => {
   return (
-    <div>
-      <div className="flex justify-center bg-black absolute z-0">
-      </div>
+    <div className="w-screen h-screen grid items-center">
       <div className="flex flex-wrap justify-center">
         <div className="w-1/4 h-96 rounded-3xl m-12 bg-amber-200">
           <img
