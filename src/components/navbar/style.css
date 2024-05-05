@@ -1,0 +1,33 @@
+#box{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top:0;
+    opacity: 0.5;
+    background-color: inherit;
+    z-index: 20;
+}
+#box:hover {
+    opacity: 1;
+}
+nav{
+    position: relative;
+    display: flex;
+    padding: 10px 0;
+}
+nav a {
+    position: relative;
+    padding: 15px 25px;
+    font-weight: 400;
+}
+#marker {
+    position: absolute;
+    bottom: 35px;
+    height: 100%;
+    width: 90px;
+    border-bottom: 5px solid #08f9ff;
+    background: linear-gradient(0deg,#08f9ff33,transparent);
+    transition: 0.5s;
+    pointer-events: none;
+    filter:drop-shadow(0 5px 25px #08f9ff)
+   }

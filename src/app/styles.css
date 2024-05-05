@@ -1,0 +1,57 @@
+* {
+margin: 0;
+padding:0;
+box-sizing: border-box;
+}
+.layer {
+    position: fixed;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+}
+.scroll{
+    position: absolute;
+    height: 90vh;
+    left: -50vh;
+}
+section {
+ height: 90vh;
+ background: url("../images/galaxy.jpg");
+ background-size: cover;
+ background-attachment: fixed; 
+}
+section.sec2 {
+ height: 60vh;
+ background: url("../images/galaxy.jpg");
+ background-size: cover;
+ background-attachment: fixed;
+}
+.text{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: inherit;
+}
+.text h2{
+    font-size: 3em;
+    font-weight: 400;
+    letter-spacing: 0em;
+    background: url("../images/galaxy.jpg");
+    background-size: cover;
+    background-attachment: fixed;  
+    background-clip: text; 
+    color:transparent;
+}
+.text h2 span {
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: 0em;
+    background: url("../images/galaxy.jpg");
+    background-size: cover;
+    background-attachment: fixed;  
+    background-clip: text; 
+    color:transparent;
+}

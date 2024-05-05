@@ -30,9 +30,9 @@ export default function App() {
         onAutoplayTimeLeft={onAutoplayTimeLeft}
         className="rounded-3xl w-full h-full"
       >
-        <SwiperSlide><img className='w-full h-full' src='https://picsum.photos/seed/picsum/400/400'/></SwiperSlide>
-        <SwiperSlide><img className='w-full h-full' src='https://picsum.photos/seed/picsum/400/400'/></SwiperSlide>
-        <SwiperSlide><img className='w-full h-full' src='https://picsum.photos/seed/picsum/400/400'/></SwiperSlide>
+        <SwiperSlide><img className='w-full h-full' src='9.jpg'/></SwiperSlide>
+        <SwiperSlide><img className='w-full h-full' src='10.jpg'/></SwiperSlide>
+        <SwiperSlide><img className='w-full h-full' src='11.jpg'/></SwiperSlide>
         <div className="autoplay-progress" slot="container-end">
           <svg viewBox="0 0 48 48" ref={progressCircle}>
             <circle cx="24" cy="24" r="20"></circle>

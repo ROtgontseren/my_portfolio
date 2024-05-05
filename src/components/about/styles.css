@@ -1,0 +1,69 @@
+.card {
+    width: 450px;
+    height:450px;
+    position: relative;
+    overflow: hidden;
+}
+.card .content {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: bottom 0.5s;
+    transition-delay: 0.8s;
+    border-end-end-radius: 24px;
+}
+.card:hover .content {
+    bottom: 0px;
+}
+.card .content .contentBox h2 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin:20px 0 15px;
+    line-height: 1.1em;
+    transition: 0.8s;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition-delay: 0,6s;
+}
+.card:hover .content .contentBox h2 {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.card .content .contentBox h2 span {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: initial;
+}
+.card .content .scifi {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+}
+.card .content .scifi li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.2s * var(--i));
+}
+.card:hover .content .scifi li {
+    transform: translateY(0px);
+    opacity:1;
+}
+.card .content .scifi li a {
+    color : #fff;
+    font-size: 24px;
+}

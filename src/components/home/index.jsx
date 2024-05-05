@@ -1,16 +1,16 @@
 import React from 'react';
-import App from './autoslider';
+import Image3D from "./image3D";
 const index = () => {
   return (
-    <div className='flex gap-12 justify-center flex-col w-full h-[100vh]' id='Home'>
-      <div className='flex gap-14 justify-center'>
-       <div className='text-white flex flex-col items-center justify-center'>
-          <h1 className='text-[36px] font-serif text-white'>hello im Otgontseren</h1>
-          <h1 className='text-[40px]'>Im full stack developer</h1>
-       </div>
-       <div className='text-white z-10 w-[800px] h-[500px]'>
-        <App/>
-       </div> 
+    <div className='flex gap-12 justify-center flex-col w-full h-[100vh] mt-24'  id='Home'>
+      <div className='flex gap-14 justify-evenly'>
+        <div className='flex flex-col w-[300px]'>      
+            <h1><span>Im</span> <span>Otgontseren</span></h1>
+            <h1><span>Im</span> <span>FullStack</span></h1>
+         </div> 
+         <div className='text-white flex items-center justify-center'>
+             <Image3D/>
+         </div>
       </div>  
     </div>
   )
