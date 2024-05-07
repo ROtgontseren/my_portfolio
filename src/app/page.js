@@ -5,11 +5,13 @@ import Particles from "@/components/particles";
 import About from "@/components/about"
 import "./styles.css"
 import Script from "next/script";
+import Navbar from "@/components/navbar";
 
 export default function Home() {
   return (
     <>
       <main className="bg-inherit" id="container">
+      <Navbar/>
         <div className="layer"><img src="rocket.gif" class="scroll"/></div>
         <section></section>
         <div className="text">

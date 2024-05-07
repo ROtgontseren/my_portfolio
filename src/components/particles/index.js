@@ -10,7 +10,7 @@ const Index = () => {
 
   const options = {
     background: {
-      color: "#000",
+      color: "#111",
       // image: "url(galaxy.jpg)",
       position: "center",
       repeat: "no-repeat",
