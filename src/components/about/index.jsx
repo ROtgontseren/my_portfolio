@@ -32,8 +32,8 @@ const index = () => {
         </h1>
        <div className='flex items-center justify-center'> 
          <p class="text-white text-sm text-justify w-full sm:w-[35rem] md:w-[30rem] lg:w-full mb-10">
-          I'm Otgontseren, a 28-year-old high schooler with a passion for web
-          development. My tech journey started with HTML, CSS, and JavaScript,
+          I'm Otgontseren, a 28-year-old pinecone academy with a passion for web
+          development in 2023. My tech journey started with HTML, CSS, and JavaScript,
           and I was hooked by the thrill of crafting dynamic, interactive
           websites. As I grew, Node.js and ReactJS became my go-to tools for
           building scalable applications. Feel free
